@@ -3,7 +3,7 @@ const showComputers = async() => {
     let computerJSON;
 
     try {
-        response = await fetch("http://localhost:3000/api/data");
+        response = await fetch("../api/data");
         computerJSON = await response.json();  
     } catch (error) {
         console.log("Error retrieving JSON")
