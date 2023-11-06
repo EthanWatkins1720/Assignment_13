@@ -1,3 +1,31 @@
+body {
+	background: #3C4C59;
+	color: #E3E0D0;	
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 h1 {
-    color: blue;
+    color: #E3E0D0;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+}
+
+section {
+    text-align: center;
+	padding: 10px;
+	margin: 25px;
+	background: rgba(112, 127, 140, .7);
+	box-shadow: 10px 14px rgba(232, 162, 123, .7);
+}
+
+ul {
+    padding-left: 0px;
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
 }
